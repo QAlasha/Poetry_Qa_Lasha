@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "зpoetry-qa-lasha"
+version = "0.1.0"
+description = "Lesson QA Guru"
+authors = ["Lasha Baslandze"]
+readme = "README.md"
+packages = [{include = "зpoetry_qa_lasha"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selene = "^1.0.2"
+pytest = "^7.3.2"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
